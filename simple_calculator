@@ -1,0 +1,18 @@
+num1=int(input("Enter first number:"))
+num2=int(input("enter Second number"))
+print("Enter choice + for addition , - for subtraction , * for multiplication , / for division")
+choice=input("enter choice")
+if(choice=='+'):
+    result=num1+num2
+    print("addition of number {} and {} is {}".format(num1,num2,result))
+elif(choice=='-'):    
+    result=num1-num2
+    print("subtraction of number {} and {} is {}".format(num1,num2,result))
+elif(choice=='*'):    
+    result=num1*num2
+    print("Multiplication of number {} and {} is {}".format(num1,num2,result))   
+elif(choice=='/'):    
+    result=num1/num2
+    print("Division of number {} and {} is {}".format(num1,num2,result))    
+else:
+    print("Please check the choice ")
